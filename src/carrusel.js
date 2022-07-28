@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM, { render } from 'react-dom';
 
+
+
 import InfiniteCarousel from 'react-leaf-carousel';
 
 import Calzado from './img/calzado.png'
+import Balon from './img/balones.png'
+import Ropa  from './img/ropa.png'
+import Guantes from './img/guantes.png'
+import Mochila from './img/mochila.png'
 
 
 
@@ -46,25 +52,25 @@ function Carrusel() {
     <div>
       <img
         alt=""
-        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=904098&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+        src={Balon}
       />
     </div>
     <div>
       <img
         alt=""
-        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=ef4d9c&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+        src={Guantes}
       />
     </div>
     <div>
       <img
         alt=""
-        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=00f3d1&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+        src={Mochila}
       />
     </div>
     <div>
       <img
         alt=""
-        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=00ffff&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+        src={Ropa}
       />
     </div>
     <div>

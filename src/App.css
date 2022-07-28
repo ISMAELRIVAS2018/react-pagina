@@ -28,10 +28,26 @@
   color: #61dafb;
 }
 
+.card-cae {
+  margin: 0px 10px;
+}
+
+.hero-img {
+  height: 100%;
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

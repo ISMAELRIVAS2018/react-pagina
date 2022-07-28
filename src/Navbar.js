@@ -7,7 +7,7 @@ import LogoNavbar from './img/logo.png'
 function Componente2() {
     return (
         <>
-            <div>
+            <div className='justify-content-center'>
                 <Navbar expand="lg" bg="dark" variant="dark">
                     <Navbar.Brand href="#home">
                         <img
